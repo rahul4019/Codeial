@@ -1,3 +1,12 @@
 <link rel="stylesheet" href="/css/user_profile.css">
 
 <h1>This is profile page!</h1>
+
+
+<p>Name: <%= user.name %></p>
+<p>Email: <%= user.email %></p>
+
+
+<form action="/users/create" method="POST">
+    <a href="./user_sign_in.ejs">Sign out</a>
+</form>
