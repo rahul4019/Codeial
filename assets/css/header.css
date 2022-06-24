@@ -6,10 +6,7 @@
 
 body {
   font-family: "Anek Latin", sans-serif;
-  height: 75vh;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column; }
+  height: 75vh; }
   body h1 {
     padding: 2rem 2rem;
     font-size: 4rem; }
