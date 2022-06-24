@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 body {
-  font-family: "Anek Latin", sans-serif;
-  height: 75vh; }
-  body h1 {
-    padding: 2rem 2rem;
-    font-size: 4rem; }
+  margin: 0;
+  font-family: 'Anek Latin', sans-serif; }
   body #layout-main {
     height: 100%; }
