@@ -1,4 +1,18 @@
-body{
-    margin: 0;
-    /* text-align: center; */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anek Latin", sans-serif;
+  height: 75vh;
+}
+body h1 {
+  padding: 2rem 2rem;
+  font-size: 4rem;
+}
+body #layout-main {
+  height: 100%;
 }
