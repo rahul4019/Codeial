@@ -3,4 +3,4 @@ body {
   margin: 0;
   font-family: 'Anek Latin', sans-serif; }
   body #layout-main {
-    height: 100vh; }
+    height: 100%; }
