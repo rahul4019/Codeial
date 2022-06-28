@@ -35,3 +35,11 @@ module.exports.home = function (req, res) {
 };
 
 // module.exports.actionName = function(res,req){}
+
+
+// using then
+// Post.find({}).populate('comments').then(function())
+
+let posts = Post.find({}).populate('comments').exec();
+
+posts.then()
